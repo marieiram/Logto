@@ -1,0 +1,44 @@
+textArea {
+              /* position: absolute; */
+              
+              height: 40%;
+              width: 70%;
+              /* left: 20%; */ 
+              /* right: 25%; */
+              /* top: calc(45% - 349px / 2 + 0.5px); */
+              /*  */
+              position: absolute;
+              top: 40%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+      
+              background: #ffffff;
+              border: 1px solid #616161;
+              box-sizing: border-box;
+              border-radius: 12px;
+              
+              font-family: "Shippori Mincho B1", serif;
+              font-weight: 500;
+              font-size: 24px;
+      
+            }
+textArea:focus {
+              border: 1px solid #e4e4e4;
+              outline: none;
+}
+      
+#savebutton {
+              position: absolute;
+              left: 15%;
+              top:65%;
+            }
+#savebutton:hover{
+  opacity: 60%;
+}
+      
+#logo{
+  position: absolute;
+  right: 4%;
+  bottom: 2%;
+
+}
